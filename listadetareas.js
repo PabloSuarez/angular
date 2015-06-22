@@ -3,4 +3,3 @@ function ControladorTareas ($scope) {
 					 {texto: 'Crear una aplicacion con angular', hecho: true}];
 
 }
-
