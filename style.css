@@ -1,5 +1,5 @@
 body {
-  background: #000;
+  background: #fff url('./img/bg.jpg') center 0 no-repeat;
   padding: 0;
   margin: 0;
 }
@@ -33,14 +33,14 @@ ul, ol, div{
       }
         @keyframes rotacion {
             50% {
-                  -webkit-transform: scale(1.2,1) rotateZ(5deg);
-                  transform: scale(1.2,1) rotateZ(5deg);
+                  -webkit-transform: scale(.8,1.2) rotateZ(1deg);
+                  transform: scale(.8,1.2) rotateZ(1deg);
                 }
         }
 
         @-webkit-keyframes rotacion {
             50% {
-                  -webkit-transform: scale(1.2,1) rotateZ(5deg);
-                  transform: scale(1.2,1) rotateZ(5deg);
+                  -webkit-transform: scale(1.1,1) rotateZ(5deg);
+                  transform: scale(1.1,1) rotateZ(5deg);
                 }
         }
